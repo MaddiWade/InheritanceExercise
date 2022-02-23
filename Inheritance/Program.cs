@@ -6,6 +6,16 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            Bird bird = new Bird();
+
+            bird.BeakType = "Small and Sharp";
+            bird.CanFly = true;
+            bird.Migrate = false;
+            bird.NestDiscription = "Small with twigs and other groud collected supplys";
+
+            Reptile reptile = new Reptile() { Skintype = "Scaley", Movement = "Slither", Poisionious = true, Harmful = true, };
+
+            
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
